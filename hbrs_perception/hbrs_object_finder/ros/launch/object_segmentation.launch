@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- cluster bounding box finder-->
+	<node pkg="object_manipulator" type="cluster_bounding_box_finder_server.py" name="cluster_bounding_box_finder" output="screen" respawn="false">
+		<param name="z_up_frame" value="/base_link" />
+	</node>
+
+	<!-- object segmentation -->
+	<node pkg="hbrs_object_finder" type="object_segmentation_node" name="hbrs_object_finder" output="screen">
+
+		<remap from="find_cluster_bounding_box" to="/find_cluster_bounding_box" />
+		
+        <param name="camera_topic" type="string" value="/tower_cam3d/depth_registered/points" />
+		<param name="camera_frame" type="string" value="/tower_cam3d_rgb_optical_frame" />
+		
+		<param name="extract_obj_in_rgb_img" type="bool" value="false" />
+		<param name="min_x" type="double" value="0.25" />
+		<param name="max_x" type="double" value="1.5" />
+		<param name="min_y" type="double" value="-1.0" />
+		<param name="max_y" type="double" value="1.0" />
+		<param name="min_z" type="double" value="-0.1" />
+		<param name="max_z" type="double" value="1.0" />
+
+		<param name="threshold_points_above_lower_plane" type="double" value="0.005"/>   <!-- in cm -->
+		<param name="downsampling_distance" type="double" value="0.005"/> 	<!-- in cm -->
+		<param name="min_points_per_objects" type="double" value="10"/>		
+		<param name="do_moving_least_square_filtering" value="1"/>
+		<param name="moving_least_square_filtering_value" value="0.01"/>
+
+	</node>
+
+
+
+		
+
+</launch>

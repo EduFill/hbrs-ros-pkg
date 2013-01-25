@@ -1,0 +1,15 @@
+<package>
+  <description brief="hbrs_msgs">
+
+     hbrs_msgs
+
+  </description>
+  <author>Sergey Alexandrov</author>
+  <license>BSD</license>
+
+  <depend package="geometry_msgs" />
+  <depend package="sensor_msgs" />
+
+</package>
+
+

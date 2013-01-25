@@ -1,0 +1,18 @@
+# [x,y,theta]
+#
+# GO GET IT
+#			
+# BEAWARE OF ENTRANCE POSES IN SEPARATE YAML FILE
+
+# Who is who poses is executed reverse
+living_room4: [9.691, -1.815, 0.013]
+living_room3: [9.691, -1.815, 0.013]
+living_room2: [9.691, -1.815, 0.013]
+living_room1: [9.691, -1.815, 0.013]
+
+kitchen4: [9.691, -1.815, 0.013]
+kitchen3: [9.691, -1.815, 0.013]
+kitchen2: [9.691, -1.815, 0.013]
+kitchen1: [9.691, -1.815, 0.013]
+
+

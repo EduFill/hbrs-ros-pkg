@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- send ROBOT parameters to parameter server -->
+	<rosparam command="load" ns="base" file="$(find hbrs_default_env_config)/$(env ROBOT_ENV)/navigation_goals.yaml"/>
+<!--	<rosparam command="load" ns="base" file="$(find hbrs_default_env_config)/$(env ROBOT_ENV)/entrance.yaml"/> -->
+	<rosparam command="load" ns="/" file="$(find hbrs_default_env_config)/$(env ROBOT_ENV)/grasp_param.yaml"/>
+	
+	<!-- send NAMES parameters to parameter server -->
+	<rosparam command="load" file="$(find hbrs_default_env_config)/$(env ROBOT_ENV)/brsu_speech_names.yaml"/>
+	<!-- send PLACES parameters to parameter server -->
+	<rosparam command="load" file="$(find hbrs_default_env_config)/$(env ROBOT_ENV)/brsu_speech_places.yaml"/>
+
+	<!-- send TEACHED TEAM MEMBERS to parameter server (needed for Who is who) -->
+	<rosparam command="load" file="$(find hbrs_default_env_config)/$(env ROBOT_ENV)/brsu_teached_team_member_faces.yaml"/>
+
+	<!-- send ACTION parameters to parameter server -->
+	<rosparam command="load" file="$(find hbrs_default_env_config)/$(env ROBOT_ENV)/brsu_speech_actions.yaml"/>
+	<!-- send OBJECTS parameters to parameter server -->
+	<rosparam command="load" file="$(find hbrs_default_env_config)/$(env ROBOT_ENV)/brsu_speech_objects.yaml"/>
+
+
+</launch>

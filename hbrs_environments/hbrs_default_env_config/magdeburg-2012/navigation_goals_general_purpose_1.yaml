@@ -1,0 +1,61 @@
+# [x,y,theta]
+#
+# GENERAL PURPOSE 1
+#			
+
+# BE AWARE OF THE ENTRANCE POSITIONS ! ! ! 
+
+#start pose
+kitchen: [9.349, 1.846, 1.581]
+
+# General Purpose Service Robot 1
+## one pose for each room!
+office: [4.427, 6.006, 0.239]
+living_room: [4.930, 0.481, 0.010]
+
+
+## search object poses (can be arbitrary many, maybe copy from getit)
+gpsr_office4: [4.924, 7.142, -1.640] #grasp_desk_left
+gpsr_office3: [5.406, 7.098, -1.625] #grasp_desk_mid
+gpsr_office2: [5.948, 7.102, -1.643] #grasp_desk_right
+gpsr_office1: [5.406, 7.098, -1.625] #grasp_desk_mid
+
+gpsr_kitchen4: [8.459, 5.170, 0.052] #grasp_fridge
+gpsr_kitchen3: [8.575, 2.578, 0.083] #grasp_sink
+gpsr_kitchen2: [9.711, 5.306, -1.511] #grasp_diner_table_side_shelf
+gpsr_kitchen1: [8.514, 6.229, -3.130] #grasp_dinner_table
+
+gpsr_living_room4: [7.678, 0.294, 1.635] #grasp_side_table
+gpsr_living_room3: [6.074, 1.200, -1.511] #grasp_couch_table
+gpsr_living_room2: [7.678, 0.294, 1.635] #grasp_side_table
+gpsr_living_room1: [6.074, 1.200, -1.511] #grasp_couch_table
+
+
+#search for person poses, is executed reverse -> from WHO IS WHO
+office4: [3.727, 6.676, 2.665] 
+office3: [6.534, 6.803, 0.077]
+office2: [5.152, 6.526, -0.988] 
+office1: [3.773, 5.652, -2.406]
+
+kitchen4: [8.648, 5.400, 1.238]
+kitchen3: [9.279, 3.855, -2.161]
+kitchen2: [9.133, 2.243, -1.218]
+kitchen1: [8.981, 0.450, -2.762]
+
+living_room4: [7.162, 0.670, -2.277]
+living_room3: [4.654, 0.590, -2.385]
+living_room2: [3.973, 1.965, 2.564]
+living_room1: [5.558, 0.650, 1.602]
+
+
+# GPSR poses (locations)
+fridge: [8.459, 5.170, 0.052]
+shelf: [8.515, 7.569, -1.555]
+hanger: [3.051, 7.022, -3.096]
+sofa: [4.198, 1.996, 0.612]
+bar: [9.250, 0.524, -0.552]
+dinner_table: [8.514, 6.229, -3.130]
+side_table: [7.678, 0.294, 1.635]
+desk: [5.406, 7.098, -1.625]
+sink: [8.575, 2.578, 0.083]
+couch_table: [6.074, 1.200, -1.511]

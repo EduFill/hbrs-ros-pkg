@@ -1,0 +1,26 @@
+<package>
+  <description brief="hbrs_nearest_object_detector">
+
+     hbrs_nearest_object_detector
+
+  </description>
+  <author>fred</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hbrs_nearest_object_detector</url>
+
+  <depend package="roscpp" />
+  <depend package="sensor_msgs" />
+  <depend package="visualization_msgs" />
+  <depend package="geometry_msgs" />
+  <depend package="std_srvs" />
+
+  <depend package="laser_filters" />
+  <depend package="hbrs_algorithms" />
+  <depend package="hbrs_srvs" />
+
+
+
+</package>
+
+

@@ -1,0 +1,7 @@
+# enter backsie
+entrance_pre_in: [14.439, 7.769, -1.585]
+entrance_post_in: [14.429, 5.804, -1.585]
+
+# leave side
+entrance_pre_out: [14.407, 5.581, 1.572]
+entrance_post_out: [14.404, 7.918, 1.574]

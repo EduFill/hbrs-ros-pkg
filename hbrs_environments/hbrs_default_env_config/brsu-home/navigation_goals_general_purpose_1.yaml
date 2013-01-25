@@ -1,0 +1,55 @@
+# [x,y,theta]
+#
+# GENERAL PURPOSE 1
+#			
+
+# BE AWARE OF THE ENTRANCE POSITIONS ! ! ! 
+
+gpsr_start: [11.0, -2.209, 0] #after each action jenny returns to this pose
+gpsr_exit: [11.0, -2.209, 0] # for leave arena command
+
+
+
+# General Purpose Service Robot 1
+## one pose for each room!
+kitchen: [9.409, -0.952, 1.747]
+living_room: [10.333, -2.115, 0.035]
+bathroom: [0, 0, 0]
+
+## search object poses (can be arbitrary many, maybe copy from getit)
+gpsr_kitchen1: [9.691, -1.815, 0.013]
+gpsr_kitchen2: [9.691, -1.815, 0.013]
+gpsr_kitchen3: [9.691, -1.815, 0.013]
+
+gpsr_living_room1: [9.691, -1.815, 0.013]
+gpsr_living_room2: [9.691, -1.815, 0.013]
+gpsr_living_room3: [9.691, -1.815, 0.013]
+
+gpsr_bathroom1: [9.691, -1.815, 0.013]
+gpsr_bathroom2: [9.691, -1.815, 0.013]
+gpsr_bathroom3: [9.691, -1.815, 0.013]
+
+#search for person poses, is executed reverse
+living_room4: [10.333, -2.115, 0.035]
+living_room3: [11.385, -2.075, 0.048]
+living_room2: [11.964, -2.077, 0.056]
+living_room1: [12.598, -2.062, 0.072]
+
+kitchen4: [9.409, -0.952, 1.747]
+kitchen3: [9.753, 0.469, 0.320]
+kitchen2: [10.978, 0.954, 0.144]
+kitchen1: [11.917, 1.067, 0.144]
+
+
+
+# GPSR poses (locations)
+drawer: [9.691, -1.815, 0.013]
+sideboard: [9.691, -1.815, 0.013]
+washing_machine: [9.691, -1.815, 0.013]
+kitchen_table: [9.691, -1.815, 0.013]
+microwave: [9.691, -1.815, 0.013]
+fridge: [9.691, -1.815, 0.013]
+tv: [9.691, -1.815, 0.013]
+coach_table: [9.691, -1.815, 0.013]
+side_table: [9.691, -1.815, 0.013]
+dining_table: [9.691, -1.815, 0.013]

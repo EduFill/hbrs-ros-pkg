@@ -1,0 +1,7 @@
+#enter side
+entrance_pre_in: [14.413, 5.671, 1.543]
+entrance_post_in: [14.469, 7.770, 1.556]
+
+#leave back
+entrance_pre_out: [14.412, 7.914, -1.523]
+entrance_post_out: [14.363, 5.714, -1.585]

@@ -1,0 +1,14 @@
+<package>
+  <description brief="hbrs_default_env_config">
+
+     hbrs_default_env_config
+
+  </description>
+  <author>Frederik Hegger</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hbrs_default_env_config</url>
+
+</package>
+
+

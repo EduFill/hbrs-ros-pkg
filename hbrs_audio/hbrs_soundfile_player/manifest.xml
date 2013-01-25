@@ -1,0 +1,16 @@
+<package>
+  <description brief="hbrs_soundfile_player">
+
+     hbrs_soundfile_player
+
+  </description>
+  <author>fred</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hbrs_soundfile_player</url>
+  <depend package="rospy"/>
+  <depend package="hbrs_srvs"/>
+
+</package>
+
+

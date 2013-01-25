@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="hbrs_arm_cart_control" type="arm_cart_control" ns="hbrs_manipulation" name="arm_cart_control" output="screen" respawn="false">
+      <param name="root_name" value="arm_link_0"/>
+      <param name="tip_name" value="arm_link_5"/>
+      <remap from="~joint_velocity_command" to="/arm_1/arm_controller/velocity_command"/>
+    </node>
+</launch>

@@ -1,0 +1,9 @@
+<stack>
+  <description brief="hbrs_environments">hbrs_environments</description>
+  <author>Maintained by Frederik Hegger</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hbrs_environments</url>
+  <depend stack="ros" />
+
+</stack>

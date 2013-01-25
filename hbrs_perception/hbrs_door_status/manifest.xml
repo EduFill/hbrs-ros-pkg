@@ -1,0 +1,13 @@
+<package>
+  <description brief="hbrs_door_status">
+
+  </description>
+  <author>Frederik Hegger</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hbrs_door_status</url>
+
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="hbrs_srvs"/>
+</package>

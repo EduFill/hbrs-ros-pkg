@@ -1,0 +1,9 @@
+<stack>
+  <description brief="hbrs_perception">hbrs_perception</description>
+  <author>Maintained by Jan</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hbrs_perception</url>
+  <depend stack="ros" />
+
+</stack>

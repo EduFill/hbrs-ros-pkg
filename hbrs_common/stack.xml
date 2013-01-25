@@ -1,0 +1,9 @@
+<stack>
+  <description brief="hbrs_common">hbrs_common</description>
+  <author>Maintained by Jan</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hbrs_common</url>
+  <depend stack="ros" />
+
+</stack>

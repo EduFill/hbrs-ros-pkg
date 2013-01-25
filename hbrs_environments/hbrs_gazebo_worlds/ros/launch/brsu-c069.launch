@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+   
+    <!-- start gazebo with empty world -->
+	<node name="gazebo" pkg="gazebo" type="gazebo" args="$(find hbrs_gazebo_worlds)/common/worlds/empty.world" respawn="false" output="screen">
+		<remap from="base_controller/command" to="cmd_vel"/>
+        <remap from="/base_odometry/odom" to="/odom" />
+    </node>
+
+    <!-- send world urdf to param server -->
+	<param name="arena_description" command="$(find xacro)/xacro.py $(find hbrs_gazebo_worlds)/common/worlds/$(env ROBOT_ENV).urdf.xacro" />
+
+    <!-- spawn uploaded world model -->
+	<node name="gazebo_arena_model" pkg="gazebo" type="spawn_model" args="-urdf -param arena_description -model world -x 0.0 -y 0.0 -z 0.2" respawn="false" output="screen" />    
+
+</launch>
+
+
+

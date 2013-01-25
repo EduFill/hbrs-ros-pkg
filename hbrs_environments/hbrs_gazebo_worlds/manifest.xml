@@ -1,0 +1,22 @@
+<package>
+  <description brief="hbrs_gazebo_worlds">
+
+     hbrs_gazebo_worlds
+
+  </description>
+  <author>Frederik Hegger</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hbrs_gazebo_worlds</url>
+
+  <depend package="xacro"/>
+  <depend package="convex_decomposition"/>
+  <depend package="ivcon"/>
+  <depend package="ogre_tools"/>
+  <depend package="gazebo"/>
+  <depend package="gazebo_tools"/>
+  <depend package="gazebo_plugins"/>
+
+</package>
+
+

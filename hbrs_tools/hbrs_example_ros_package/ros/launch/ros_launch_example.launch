@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+	<node pkg="hbrs_example_ros_package" type="ros_node_example" name="ros_node_example" output="screen">
+		<param name="my_param" type="double" value="1.5" />
+	</node>
+</launch>

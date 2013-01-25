@@ -1,0 +1,25 @@
+<package>
+  <description brief="hbrs_scene_segmentation">
+
+     hbrs_scene_segmentation
+
+  </description>
+  <author>Sergey Alexandrov</author>
+  <license>BSD</license>
+
+  <depend package="roscpp"/>
+  <depend package="opencv2"/>
+  <depend package="pcl16"/>
+  <depend package="pcl16_ros"/>
+
+  <depend package="hbrs_srvs"/>
+  <depend package="hbrs_visualization"/>
+  <depend package="polyclipping"/>
+
+  <export>
+    <cpp cflags="-I${prefix}/common/include" lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lscene_segmentation"/>
+  </export>
+
+</package>
+
+

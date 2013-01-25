@@ -1,0 +1,4 @@
+entrance_post_in: [3.876, 0.184, 1.635]  # moving in the arena, in the arena
+
+entrance_pre_out: [3.429, 7.945, 1.612]  # moving outside the arean, still inside
+entrance_post_out: [3.390, 9.275, 1.599] # moving outside the arean, outside the arena

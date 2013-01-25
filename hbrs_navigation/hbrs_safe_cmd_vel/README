@@ -1,0 +1,3 @@
+This program is designed to allow for a user to publish base movement velocities to "/safe_cmd_vel" and to have the node adjust the movments in order to avoid colliding with any surrounding obstacles. 
+
+This node provides the ability to call a service to see if the commands that have been sent have been modified. This is for the case where a program expects changes in position but will not see them due to the overriding of the TWIST message inside of the safe_cmd_vel. 

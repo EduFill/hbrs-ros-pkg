@@ -1,0 +1,18 @@
+<package>
+  <description brief="hbrs_safe_cmd_vel">
+
+     hbrs_safe_cmd_vel
+
+  </description>
+  <author>Matthew Roscoe</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hbrs_safe_cmd_vel</url>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="std_srvs"/>
+  <depend package="hbrs_srvs"/>
+
+</package>
+
+

@@ -1,0 +1,6 @@
+buttons: [[charge,move,charge],
+  [intro,move,intro],
+  [kitchen grasp,move,kitchen_grasp],
+  [couch,move,couch],
+  [lab area,move,labarea],
+  [diner grasp,move,diner_grasp]]

@@ -1,0 +1,28 @@
+<package>
+  <description brief="hbrs_algorithms">
+
+      This Package contains BRSU specific algorithms
+
+  </description>
+  <author>Frederik Hegger</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hbrs_alogrithms</url>
+
+  <depend package="sensor_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="pcl"/>    
+  <depend package="tf"/>	
+  <depend package="geometry_msgs"/>
+  <depend package="hbrs_msgs"/>
+  <depend package="opencv2"/>
+  <depend package="libsvm"/>
+  
+
+  <export>
+    <cpp cflags="-I${prefix}/.." lflags="-L${prefix}/lib"/>
+  </export>
+
+</package>
+
+

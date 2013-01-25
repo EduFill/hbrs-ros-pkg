@@ -1,0 +1,10 @@
+CMakeCache.txt
+CMakeFiles/
+src/.svn
+include/.svn
+/bin
+/lib
+cmake_install.cmake
+manifest.xml~
+/build
+

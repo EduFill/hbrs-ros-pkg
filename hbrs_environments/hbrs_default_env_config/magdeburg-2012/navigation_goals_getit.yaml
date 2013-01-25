@@ -1,0 +1,25 @@
+# [x,y,theta]
+#
+# GO GET IT
+#
+# BEAWARE OF ENTRANCE POSES IN SEPARATE YAML FILE
+
+order_deliver_pose: [4.148, 0.233, 0.02]
+
+# grasp poses is executed reverse
+office4: [4.924, 7.142, -1.640] #grasp_desk_left
+office3: [5.406, 7.098, -1.625] #grasp_desk_mid
+office2: [5.948, 7.102, -1.643] #grasp_desk_right
+office1: [5.406, 7.098, -1.625] #grasp_desk_mid
+
+#office1: [8.515, 7.569, -1.555] #grasp_black_shelf
+
+kitchen4: [8.459, 5.170, 0.052] #grasp_fridge
+kitchen3: [8.575, 2.578, 0.083] #grasp_sink
+kitchen2: [9.711, 5.306, -1.511] #grasp_black_shelf
+kitchen1: [8.514, 6.229, -3.130] #grasp_dinner_table
+
+living_room4: [7.678, 0.294, 1.635] #grasp_side_table
+living_room3: [6.074, 1.200, -1.511] #grasp_couch_table
+living_room2: [7.678, 0.294, 1.635] #grasp_side_table
+living_room1: [6.074, 1.200, -1.511] #grasp_couch_table

@@ -1,0 +1,1 @@
+brsu_speech_actions: ["introduce", "learn_person", "find_person", "identify_person", "follow_person", "move_to", "bring", "detect_object", "grasp", "exit", "point"]

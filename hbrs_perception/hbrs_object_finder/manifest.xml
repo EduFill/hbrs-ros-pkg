@@ -1,0 +1,29 @@
+<package>
+  <description brief="brsu_object_finder">
+
+     brsu_object_finder_node
+
+  </description>
+  <author>Christian Mueller</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/brsu_object_finder</url>
+  <depend package="roscpp"/>
+  <depend package="tf"/>
+  <depend package="image_transport" />
+  <depend package="pcl_ros"/>
+  <depend package="pcl"/>
+  <depend package="opencv2"/>
+  <depend package="cv_bridge"/>
+  <depend package="sensor_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="std_srvs"/>
+  <depend package="hbrs_srvs"/>
+  <depend package="hbrs_msgs"/>
+  <depend package="object_manipulation_msgs"/>
+  
+  <export>
+    <cpp cflags="-I${prefix}/ros/include" lflags="-L${prefix}/lib"/>
+  </export>
+  
+</package>

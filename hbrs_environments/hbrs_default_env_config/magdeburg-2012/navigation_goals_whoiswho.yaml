@@ -1,0 +1,22 @@
+# [x,y,theta]
+#
+# WHO IS WHO
+#
+# BE AWARE OF THE ENTRANCE POSITIONS ! ! ! 
+
+
+# Who is who poses is executed reverse
+office4: [3.727, 6.676, 2.665] 
+office3: [6.534, 6.803, 0.077]
+office2: [5.152, 6.526, -0.988] 
+office1: [3.773, 5.652, -2.406]
+
+kitchen4: [8.850, 6.533, 0.816]
+kitchen3: [9.279, 3.855, -2.161]
+kitchen2: [9.133, 2.243, -1.218]
+kitchen1: [8.981, 0.450, -2.762]
+
+living_room4: [7.162, 0.670, -2.277]
+living_room3: [4.654, 0.590, -2.385]
+living_room2: [3.973, 1.965, 2.564]
+living_room1: [5.558, 0.650, 1.602]

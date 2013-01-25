@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="hbrs_gazebo_objects" type="spawn_objects.py" name="hbrs_spawn_simulation_objects" respawn="false" output="screen" />
+    
+</launch>

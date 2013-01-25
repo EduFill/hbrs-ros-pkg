@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="hbrs_soundfile_player" type="soundfile_player.py" name="hbrs_soundfile_player" output="screen"/>
+</launch>

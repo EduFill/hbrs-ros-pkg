@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+	<node pkg="hbrs_door_status" type="door_status_node" name="hbrs_door_status"  output="screen">
+		<param name="AngularRange" value="10.0" />		<!-- in degree -->
+		<param name="DistanceThreshold" value="1.5" />  <!-- in meter -->
+	</node>
+</launch>

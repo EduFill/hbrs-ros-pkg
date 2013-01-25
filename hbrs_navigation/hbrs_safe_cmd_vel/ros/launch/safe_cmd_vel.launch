@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="hbrs_safe_cmd_vel" type="safe_cmd_vel" name="hbrs_safe_cmd_vel" ns="hbrs_navigation" output="screen">
+        <param name="soft_padding_distance" type="double" value="0.1" />	<!-- in meter -->
+        <param name="hard_padding_distance" type="double" value="0.05" />	<!-- in meter -->
+      
+        <param name="soft_padding_xy_velocity" type="double" value="0.01" />	<!-- in meter/sec -->
+        <param name="soft_padding_theta_velocity" type="double" value="0.05" />	<!-- in radians/sec -->  
+    </node>
+</launch>

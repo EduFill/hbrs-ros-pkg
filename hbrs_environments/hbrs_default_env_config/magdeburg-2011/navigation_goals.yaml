@@ -1,0 +1,49 @@
+#[x,y,theta]
+charge: [1.131, 8.808, 1.5708]
+
+# RIPS poses
+rips_public: [0, 0, -1.5708]
+rips_registration_table: [0, 0, 1.5708]
+rips_post_out: [0, 2, 1.5708]
+rips_out: [0, 6, 1.5708]
+
+
+# Who is who poses is executed reverse
+diningroom5: [0, 0, 0]
+diningroom4: [-1.5, -0.5, 0]
+diningroom3: [1, -0.5, 1.5708]
+diningroom2: [1, 1.5, 3.14]
+diningroom1: [-1.5, 1.5, -1.5708]
+
+kitchen5: [4.5, 3.5, 1.5708]
+kitchen4: [5, 4.5, 3.14]
+kitchen3: [3, 6, -1.5708]
+kitchen2: [3, 0, 0]
+kitchen1: [4.5, 1, 1.5708]
+
+office5: [0, 5.5, 0]
+office4: [1, 6.5, 3.14]
+office3: [-1, 6.5, -1.5708]
+office2: [-1, 4.5, 0]
+office1: [1, 4.5, 1.5708]
+
+# open challenge
+table: [3, 6.25, -1.5708] # open challenge and demo challenge
+post_table: [3, 5.8, -1.5708]
+post_table_turned: [3, 5.8, 1.5708]
+post_table_turned2: [3, 6.2, 1.5708]
+open_challenge_pre_leave: [-1.176, 7.5, 1.5708]
+open_challenge_post_leave: [-1.176, 9.0, 1.5708]
+
+# demo challenge
+bin: [3.5, 5.5, 0]
+
+#enhanced who is who
+kitchen_order: [4.5, 3.5, -1.5708]
+grasp_pose_whoiswho: [-0.85, 4.95, 0]
+pre_leave: [-1, 6, 1.5708]
+
+#final
+final_public: [4, 3.5, 0]
+final_public_left: [4, 3.5, 1.5708]
+final_public_right: [4, 3.5, -1.5708]

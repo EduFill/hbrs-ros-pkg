@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+	<node pkg="hbrs_nearest_object_detector" type="nearest_object_detector" name="hbrs_nearest_object_detector"  output="screen">
+		<param name="PublishMarker" type="bool" value="True" />
+		<remap from="scan" to="/scan_front"/>
+	</node>
+</launch>

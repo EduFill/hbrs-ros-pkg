@@ -1,0 +1,7 @@
+# enter
+entrance_pre_in: [9.905, -2.283, 0.02]
+entrance_post_in: [9.905, -2.283, 0.02]
+
+# leave
+entrance_pre_out: [9.905, -2.283, 0.02]
+entrance_post_out: [9.905, -2.283, 0.02]

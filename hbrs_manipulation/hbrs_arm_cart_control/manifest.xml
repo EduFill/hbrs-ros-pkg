@@ -1,0 +1,22 @@
+<package>
+  <description brief="hbrs_arm_cart_control">
+
+     arm Cartesian control
+
+  </description>
+  <author>Matthias Fueller</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url></url>
+  <depend package="roscpp"/>
+  <depend package="brics_actuator"/>
+  <!--<depend package="kdl"/>-->
+  <depend package="kdl_parser"/>
+  <depend package="eigen_conversions"/>
+  <depend package="urdf"/>
+  <depend package="sensor_msgs"/>
+  <depend package="tf"/>
+
+</package>
+
+

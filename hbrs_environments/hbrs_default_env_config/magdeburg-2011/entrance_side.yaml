@@ -1,0 +1,5 @@
+entrance_pre_in: [-1.176, 9.0, -1.5708]
+entrance_post_in: [-1.176, 7.5, -1.5708]
+
+entrance_pre_out: [-1.176, 7.5, 1.5708]
+entrance_post_out: [-1.176, 9.0, 1.5708]

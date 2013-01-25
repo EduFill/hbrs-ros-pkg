@@ -1,0 +1,9 @@
+<stack>
+  <description brief="hbrs_navigation">hbrs_navigation</description>
+  <author>Maintained by Matthew Roscoe</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hbrs_navigation</url>
+  <depend stack="ros" />
+
+</stack>

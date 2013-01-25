@@ -1,0 +1,19 @@
+# [x,y,theta]
+#
+# ENHANCED WHO IS WHO
+#
+# BE AWARE OF THE ENTRANCE POSITIONS ! ! ! 
+
+grasp_pose_post_in: [9.691, -1.815, 0.013]
+grasp_pose: [9.691, -1.815, 0.013]
+
+# Who is who poses is executed reverse
+living_room4: [10.333, -2.115, 0.035]
+living_room3: [11.385, -2.075, 0.048]
+living_room2: [11.964, -2.077, 0.056]
+living_room1: [12.598, -2.062, 0.072]
+
+kitchen4: [9.409, -0.952, 1.747]
+kitchen3: [9.753, 0.469, 0.320]
+kitchen2: [10.978, 0.954, 0.144]
+kitchen1: [11.917, 1.067, 0.144]

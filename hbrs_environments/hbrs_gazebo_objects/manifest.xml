@@ -1,0 +1,14 @@
+<package>
+  <description brief="hbrs_gazebo_objects">
+
+     hbrs_gazebo_objects
+
+  </description>
+  <author>Frederik Hegger</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hbrs_gazebo_objects</url>
+
+</package>
+
+

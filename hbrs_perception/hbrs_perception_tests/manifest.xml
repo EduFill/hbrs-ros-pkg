@@ -1,0 +1,23 @@
+<package>
+  <description brief="hbrs_perception_tests">
+
+     This package has the 'normal' ROS folder structure because
+     of the heavy usage of dynamic_reconfigure package, which is
+     not particularly flexible with the paths of generated files.
+     Which in turn results in a complete mess.
+
+  </description>
+  <author>Sergey Alexandrov</author>
+  <license>BSD</license>
+
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="dynamic_reconfigure"/>
+  <depend package="pcl16_ros"/>
+  <depend package="visualization_msgs"/>
+
+  <depend package="hbrs_scene_segmentation"/>
+
+</package>
+
+

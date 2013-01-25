@@ -1,0 +1,15 @@
+door_status_node
+----------------
+
+determines the status of a in front door by averaging the distances in a particular range of a given laser scan. 
+
+
+provides service: "/door_status"
+
+requires published topic : "/scan_front"
+
+returns:	false	- if door in front is closed
+			true	- if door in front is open
+			
+launch file parameters:		AngularRange 		- evaluate distances between -(AngularRange/2) and +(AngularRange/2) 
+							DistanceThreshold	- if mean distance of angular range is greater this threshold the door is open, if not it is closed

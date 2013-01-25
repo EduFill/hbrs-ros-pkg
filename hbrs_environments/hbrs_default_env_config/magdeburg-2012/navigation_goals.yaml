@@ -1,0 +1,100 @@
+# [x,y,theta]
+#
+# poses used for specific scenarios: 
+#	rips: entrance_post_in, rips_public, rips_registration_table, rips_post_out, rips_out
+#	followme: not poses needed
+#			
+
+entrance_post_in: [9.905, -2.283, 0.02] #
+
+rips_public: [9.985, -3.000, 1.61] # rips presentation pose
+rips_registration_table: [9.905, -2.283, 3.14]  # pose to deliver registration sheet
+rips_post_out: [10.44, -2.22, -3.07]  
+rips_out: [10.11, -3.43, 1.61] 
+
+########### NOT USED YET
+
+
+charge: [10.11, -3.43, 1.61]
+intro: [10.44, -2.22, -3.07]
+kitchen_grasp: [11.794, 0.881, 1.684]
+couch: [12.382, -1.978, -1.50]
+labarea: [4.23, -0.22, -1.549]
+diner_grasp: [9.905, -2.283, 0.02]
+
+
+
+# Go Get it
+getit_entrance: [9.905, -2.283, 0.02]
+# Go Get It Room A
+getit_kitchen1: [0, 0, 0]
+getit_kitchen2: [0, 0, 0]
+getit_kitchen3: [0, 0, 0]
+getit_kitchen4: [0, 0, 0]
+# Go Get It Room B
+getit_diningroom1: [0, 0, 0]
+getit_diningroom2: [0, 0, 0]
+getit_diningroom3: [0, 0, 0]
+getit_diningroom4: [0, 0, 0]
+getit_diningroom5: [0, 0, 0]
+
+
+# General Purpose Service Robot 1
+## one pose for each room!
+gpsr_kitchen: [0, 0, 0]
+gpsr_living_room: [0, 0, 0]
+gpsr_bathroom: [0, 0, 0]
+
+## search object poses (can be arbitrary many, maybe copy from getit)
+gpsr_kitchen1: [0, 0, 0]
+gpsr_kitchen2: [0, 0, 0]
+gpsr_kitchen3: [0, 0, 0]
+
+gpsr_living_room1: [0, 0, 0]
+gpsr_living_room2: [0, 0, 0]
+gpsr_living_room3: [0, 0, 0]
+
+gpsr_bathroom1: [0, 0, 0]
+gpsr_bathroom2: [0, 0, 0]
+gpsr_bathroom3: [0, 0, 0]
+
+## search person poses (can be arbitrary many, maybe copy from who_is_who)
+gpsr_kitchen_find_person1: [0, 0, 0]
+gpsr_kitchen_find_person2: [0, 0, 0]
+gpsr_kitchen_find_person3: [0, 0, 0]
+
+gpsr_living_room_find_person1: [0, 0, 0]
+gpsr_living_room_find_person2: [0, 0, 0]
+gpsr_living_room_find_person3: [0, 0, 0]
+
+gpsr_bathroom_find_person1: [0, 0, 0]
+gpsr_bathroom_find_person2: [0, 0, 0]
+gpsr_bathroom_find_person3: [0, 0, 0]
+
+
+# demo challenge
+pre_table: [11.0, -2.209, 0]
+table: [9.832, -2.209, 0] # open challenge and demo challenge
+post_table: [11.0, -2.209, 0]
+bin: [12.0, -2.209, 1.57]
+
+# Who is who poses is executed reverse
+diningroom5: [0, 0, 0]
+diningroom4: [0, 0, 0]
+diningroom3: [0, 0, 0]
+diningroom2: [0, 0, 0]
+diningroom1: [0, 0, 0]
+
+kitchen5: [0, 0, 0]
+kitchen4: [0, 0, 0]
+kitchen3: [0, 0, 0]
+kitchen2: [0, 0, 0]
+kitchen1: [0, 0, 0]
+
+office5: [0, 0, 0]
+office4: [0, 0, 0]
+office3: [0, 0, 0]
+office2: [0, 0, 0]
+office1: [0, 0, 0]
+
+

@@ -1,0 +1,10 @@
+# [x,y,theta]
+#
+# RIPS
+#
+# BE AWARE OF THE ENTRANCE POSITIONS ! ! ! 
+
+rips_public: [9.985, -3.000, 1.61] # rips presentation pose
+rips_registration_table: [9.905, -2.283, 3.14]  # pose to deliver registration sheet
+rips_post_out: [10.44, -2.22, -3.07]  
+rips_out: [10.11, -3.43, 1.61] 

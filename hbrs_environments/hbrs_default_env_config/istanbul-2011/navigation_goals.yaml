@@ -1,0 +1,155 @@
+#[x,y,theta]
+charge: [1.131, 8.808, 1.5708]
+
+#general room poses
+#corridor: [6.777, 0.406, -0.102]
+#corridor_final: [10.402, 0.486, 0.000]
+corridor_final: [10.809, 13.729, 0.000]
+#corridor: [9.323, 0.396, -1.514]
+corridor: [9.213, 13.347, 1.469]
+bedroom: [3.469, 2.374, 1.590]
+laundry: [6.416, 2.554, 1.573]
+#kitchen: [9.407, 5.300, -1.53]
+kitchen: [9.228, 10.558, -0.094]
+#living_room: [12.960, 0.421, 3.134]
+living_room: [13.050, 12.964, 3.088]
+
+# RIPS poses
+rips_public: [8.124, 0.085, -1.528]
+rips_registration_table: [9.554, 0.265, 0.021]
+rips_post_out: [2.507, 0.093, -3.101]
+rips_out: [-0.268, -0.022, -3.128]
+
+
+# Who is who poses is executed reverse
+bedroom1: [3.978, 2.357, 1.550]
+bedroom2: [3.034, 2.384, 1.506]
+bedroom3: [3.994, 5.442, 2.720]
+bedroom4: [3.034, 2.384, 1.506]
+bedroom5: [3.034, 2.384, 1.506]
+bedroom6: [3.402, 3.566, -2.088]
+
+laundry1: [6.984, 2.328, 1.560]
+laundry2: [6.290, 2.936, 1.177]
+laundry3: [7.016, 5.075, -1.846]
+laundry4: [7.028, 2.527, 1.811]
+
+kitchen1: [10.204, 2.717, 2.017]
+kitchen2: [8.709, 2.657, 1.397]
+kitchen3: [10.039, 5.525, -1.895]
+kitchen4: [8.687, 5.210, -1.487]
+
+corridor1: [2.393, 0.860, -0.294]
+corridor2: [3.500, -0.130, -0.125]
+corridor3: [8.972, 0.692, -3.128]
+corridor4: [9.492, -0.503, -3.128]
+
+living_room1: [14.821, 0.313, 1.933]
+living_room2: [13.639, 4.469, 0.57]
+living_room3: [11.998, 3.222, -1.114]
+living_room4: [10.501, 0.057, 0.623]
+
+arenaA_exitC: [2.088, -2.483, -2.280] 
+arenaB_exitC: [1.887, 15.794, 1.970] 
+
+# General Purpose Service Robot 1
+## one pose for each room!
+gpsr_corridor: [6.777, 0.406, -0.102]
+gpsr_bedroom: [3.469, 2.374, 1.590]
+gpsr_laundry: [6.416, 2.554, 1.573]
+gpsr_kitchen: [9.895, 3.333, 3.058]
+gpsr_living_room: [13.615, 1.621, 1.747]
+
+## search object poses (can be arbitrary many, maybe copy from getit)
+gpsr_kitchen1: [0, 0, 0]
+gpsr_kitchen2: [0, 0, 0]
+gpsr_kitchen3: [0, 0, 0]
+
+gpsr_living_room1: [0, 0, 0]
+gpsr_living_room2: [0, 0, 0]
+gpsr_living_room3: [0, 0, 0]
+
+gpsr_bathroom1: [0, 0, 0]
+gpsr_bathroom2: [0, 0, 0]
+gpsr_bathroom3: [0, 0, 0]
+
+#### open challenge
+
+#open_challenge_table: [-2.072, 8.878, 1.573] # for testing
+open_challenge_table: [9.678, -0.263, -3.135]
+
+#open_challenge_public: [-1.072, 8.878, 1.573] # for testing
+open_challenge_public: [7.000, -0.244, -2.417]
+
+#open_challenge_bin_full: [-2.284, 8.037, 1.573] # for testing
+open_challenge_bin_full: [7.564, 0.393, 3.141]
+
+#open_challenge_bin_empty: [-1.446, 7.917, 1.531] # for testing
+open_challenge_bin_empty: [8.261, 0.387, -3.141]
+
+########
+table: [3, 6.25, -1.5708] # open challenge and demo challenge
+post_table: [3, 5.8, -1.5708]
+post_table_turned: [3, 5.8, 1.5708]
+post_table_turned2: [3, 6.2, 1.5708]
+open_challenge_pre_leave: [-1.176, 7.5, 1.5708]
+open_challenge_post_leave: [-1.176, 9.0, 1.5708]
+
+# demo challenge
+bin: [3.5, 5.5, 0]
+
+#enhanced who is who
+kitchen_order: [4.5, 3.5, -1.5708]
+grasp_pose_whoiswho: [-0.85, 4.95, 0]
+pre_leave: [-1, 6, 1.5708]
+
+#final
+final_public: [4, 3.5, 0]
+final_public_left: [4, 3.5, 1.5708]
+final_public_right: [4, 3.5, -1.5708]
+
+# Go get it poses to grasp from!
+# bedroom drawer
+#getit_bedroom1: [1.998, 2.982, -0.423] 
+#getit_bedroom2: [1.998, 2.982, -0.423] 
+#getit_bedroom3: [1.998, 2.982, -0.423]
+# laundry sideboard
+#getit_laundry1: [6.686, 5.265, -1.549] 
+# washing machine
+#getit_laundry2: [6.188, 3.657, 0.015] 
+# kitchen table
+#getit_kitchen_post_in: [9.603, 3.615, -0.253]
+#getit_kitchen1: [9.407, 5.300, -1.53]
+# kitchen microwave
+#getit_kitchen2: [9.142, 2.722, 0.015]
+# kitchen fridge
+#getit_kitchen3: [9.124, 4.312, 0.022]
+# living room tv
+#getit_living_room1: [12.130, 4.682, -0.525]
+# living room coach table
+#getit_living_room2: [14.603, 5.366, 0.042] 
+# living room side table
+#getit_living_room3: [12.400, 0.176, 1.549] 
+# living room dining table
+#getit_living_room4: [12.173, 0.516, -3.132] 
+
+## final
+#getit_corridor1: [9.323, 0.396, -1.514]
+getit_corridor1: [9.213, 13.347, 1.469]
+#getit_kitchen1: [9.407, 5.300, -1.53]
+getit_kitchen1: [9.228, 10.558, -0.094]
+#getit_living_room1: [12.960, 0.421, 3.134]
+getit_living_room1: [13.050, 12.964, 3.088]
+
+# GPSR poses (locations)
+drawer: [1.998, 2.982, -0.423] 
+sideboard: [6.686, 5.265, -1.549] 
+washing_machine: [6.188, 3.657, 0.015] 
+kitchen_table: [9.565, 5.432, -1.549]
+microwave: [9.142, 2.722, 0.015]
+fridge: [9.124, 4.312, 0.022]
+tv: [12.130, 4.682, -0.525]
+coach_table: [14.603, 5.366, 0.042] 
+side_table: [12.400, 0.176, 1.549] 
+dining_table: [12.173, 0.516, -3.132] 
+

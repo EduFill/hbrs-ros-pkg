@@ -1,0 +1,14 @@
+<package>
+  <description brief="hbrs_srvs">
+
+     hbrs_srvs
+
+  </description>
+  <author>Sergey Alexandrov</author>
+  <license>BSD</license>
+
+  <depend package="hbrs_msgs" />
+
+</package>
+
+
