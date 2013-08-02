@@ -1,13 +1,3 @@
-- svn:
-    local-name: pcl16_ros
-    uri: http://svn.pointclouds.org/ros/branches/fuerte/perception_pcl_unstable/pcl16_ros/
-    version: -r347
-
-- svn:
-    local-name: pcl16
-    uri: http://svn.pointclouds.org/ros/branches/fuerte/perception_pcl_unstable/pcl16
-    version: -r347
-
 - git:
     local-name: third-party-software
     uri: https://github.com/b-it-bots/third-party-software.git
